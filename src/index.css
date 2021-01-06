@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  
+}
+body{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.active_class {
+  color: rgb(26, 7, 196);
+  border-bottom: 1px solid red;
+}
+.nav {
+  background-color:white;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar-expand{
+  background-color: white !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+.nav-link active{
+  display: none;
+}
+.header-img{
+  text-align: center;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+  #header{
+    height: 100vh;
+  }
+  
+  footer {
+    width: 100vw;
+    height: 5rem;
+    background-color:white;
+    margin-top: auto;
+
+  }
+
+@-webkit-keyframes up-down{
+0% {
+    transform: translateY(10px)
+}
+100%{
+  transform: translateY(-10px)
+}
+
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@media (max-width:768px){
+  #header {
+    margin-top:20px
+  }
+  #header h1{
+    font-size: 28px;
+  }
+  #header h2{
+    font-size: 18px;
+    margin-bottom:30px;
+  }
+  #header .header-img img{
+    width:70%;
+  }
+  #nav_wide{
+    width:95%;
+  }
+}
