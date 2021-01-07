@@ -7,14 +7,16 @@ const CardToll =(porps) =>{
         <React.Fragment>
         
       
-      
- 
-  <div class="col-md-4 col-10 mx-auto">
-  <img src={css} className="img-fluid" alt="Responsive"/>
-  <h1>HTML</h1>
+    
+
+  <div class="col-md-2 col-10 mx-auto">
+  <section id="card1">
+  <img src={porps.shot} className="img-fluid" alt="Responsive"/>
+  <h1 className="text-center">{porps.title}</h1>
+  </section> 
   </div>
 
-     
+
            
         </React.Fragment>
     )

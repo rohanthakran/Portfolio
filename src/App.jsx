@@ -1,5 +1,6 @@
 import React from 'react';
 //import Bootstrap
+
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Footer  from './Footer.jsx'
 import Home from './Home';

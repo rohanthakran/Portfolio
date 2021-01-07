@@ -6,7 +6,8 @@ const Projects = () =>{
     return (
         <React.Fragment>
            <div className ="my-5">
-                <h1 className="text-center">Skills</h1>
+                <h1 className="text-center font">Skills</h1>
+                <p className="text-center font">Languages and Technologies that i have learned and applied into my project</p>
            </div>
            <section id="card1">
            <div className="container-fluid mb-5">

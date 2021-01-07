@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 *{
   padding:0;
@@ -75,9 +76,14 @@ code {
  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 #card1 img{
-  width: 412px;
-  height: 412px;
+  width: 200px;
+  height: 200px;
  
+}
+.font {
+  font-family: 'Oxygen', sans-serif;
+
+
 }
 @-webkit-keyframes up-down{
 0% {
