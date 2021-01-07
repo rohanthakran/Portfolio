@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Error from './Error';
 import NavBar from './NavBar';
 import {Route,Router,Switch} from "react-router-dom";
+import AboutMe from "./AboutMe";
 
 const App = () =>{
     return (
@@ -22,6 +23,8 @@ const App = () =>{
         <Route component={Error}/>
 
        </Switch>
+       <AboutMe/>
+       <Projects/>
       <Footer/>
         </React.Fragment>
        
