@@ -1,5 +1,5 @@
 import React from  'react'
-import img1 from "./dp.jpg"
+import img1 from "./images/crop.jpg"
 const AboutMe =() =>{
         return(
             <React.Fragment>
@@ -9,10 +9,12 @@ const AboutMe =() =>{
                     </div>
                    <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-6 col-10 mx-auto">
+                            <div className="col-md-8 col-8 mx-auto">
                             <div className="d-flex">
+                            <div className ="myimage">
                             <img src={img1}class="rounded float-start" alt="..."/>
-                            <div class="p-2">Fbout.me is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009.</div>
+                            </div>
+                            <div class="p-4">Fbout.me is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009.</div>
                             </div>
                             </div>
                             

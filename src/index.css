@@ -11,7 +11,7 @@
 body{
   display:flex;
   flex-direction:column;
-  height:100vh;
+  
 }
 body {
   margin: 0;
@@ -61,29 +61,62 @@ code {
 }
 
   #header{
-    height: 100vh;
+    height: 70vh;
   }
-  
+  span{
+    color: red
+  }
   footer {
     width: 100vw;
     height: 5rem;
     background-color:white;
     margin-top: auto;
-
-  }.card:hover{
     transition: .4s; 
-    transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+  }.card{
+    background: white; 
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: 0.3s;
 }
-#card1 img{
+.card:hover{
+    background: white;
+    box-shadow: 8px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
+}
+
+.myimg img{
   width: 200px;
-  height: 200px;
+  height:100px;
+  
  
 }
+
+
 .font {
   font-family: 'Oxygen', sans-serif;
+}
+.colu{
+  display:flex;
+  flex-direction:column;
+
+}
+.colu{
+  width:100px;
+  height: 100px;
 
 
+}
+.d-flex .myimage img {
+  width: 300px;
+  height: 300px;
+  padding:12px
+}
+.col-sm {
+  width:200px;
+}
+.colu h1{
+  font-size: 24px;
+  margin-top:12px;
 }
 @-webkit-keyframes up-down{
 0% {
@@ -119,4 +152,8 @@ code {
   #nav_wide{
     width:95%;
   }
+  .d-flex{
+    flex-direction: column;
+  }
+  
 }
