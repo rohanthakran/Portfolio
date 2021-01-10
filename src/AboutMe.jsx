@@ -1,25 +1,25 @@
 import React from  'react'
 import img1 from "./images/crop.jpg"
+import {Link} from  'react-router-dom'
 const AboutMe =() =>{
         return(
             <React.Fragment>
-                <section>
+                <section id="about">
+                    
+                    <div className="d-flex flex-column align-items-center justify-content-center" style={{height: "630px"}}>
                     <div className="my-5">
                         <h1 className="text-center">About me</h1>
                     </div>
-                   <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-md-8 col-8 mx-auto">
-                            <div className="d-flex">
-                            <div className ="myimage">
-                            <img src={img1}class="rounded float-start" alt="..."/>
-                            </div>
-                            <div class="p-4">Fbout.me is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009.</div>
-                            </div>
-                            </div>
-                            
+
+                    <img src={img1} style={{ borderRadius: "50%"}} alt="..."/>
+                    <div className="mt-5">
+                    <div div className="col-lg-5 mx-auto">
+                        <p>Hi! I am Rohan Thakran, a web developer/Mern Stack Developer focused on crafting great web experiences. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+                    </div>
                         </div>
-                   </div> 
+                    </div>          
+                            
+                
                 </section>
             </React.Fragment>
         )

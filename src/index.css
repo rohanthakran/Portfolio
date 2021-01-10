@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 *{
   padding:0;
   margin: 0;
@@ -40,6 +41,7 @@ code {
   background-color: white !important;
 }
 .navbar a{
+  color: white;
   font-size: 1.3rem;
   text-transform: capitalize;
 }
@@ -64,7 +66,7 @@ code {
     height: 70vh;
   }
   span{
-    color: red
+    color:	rgb(80,80,80)
   }
   footer {
     width: 100vw;
@@ -86,13 +88,9 @@ code {
 
 }
 
-.myimg img{
-  width: 200px;
-  height:100px;
-  
- 
+.rounded img{
+  border-radius:50%;
 }
-
 
 .font {
   font-family: 'Oxygen', sans-serif;
@@ -120,6 +118,13 @@ code {
   font-size: 24px;
   margin-top:12px;
 }
+.nav-item {
+  cursor: pointer;
+}
+.home h1{
+  color:  rgb(95, 99, 104);
+}
+
 @-webkit-keyframes up-down{
 0% {
     transform: translateY(10px)

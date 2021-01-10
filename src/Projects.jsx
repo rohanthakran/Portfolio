@@ -5,7 +5,7 @@ import Sdata from './Sdata';
 const Projects = () =>{
     return (
         <React.Fragment>
-           <div className ="my-5">
+           <div className ="my-5" id="project">
                 <h1 className="text-center">Projects</h1>
            </div>
            <div className="container-fluid mb-5">

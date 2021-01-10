@@ -2,7 +2,7 @@ import React from 'react';
 const Contact = () =>{
     return (
         <React.Fragment>
-        <section id="header">
+        <section id="contact">
             <div className="my-5">
                 <h1 className="text-center">Contact us</h1>
             </div>

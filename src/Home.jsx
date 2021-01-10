@@ -4,7 +4,7 @@ import Common from './Common'
 const Home = () =>{
     return (
         <React.Fragment>
-        <Common intro ="Hi My Name is " imgr={web}/>
+        <Common/>
         </React.Fragment>
     )
 }
