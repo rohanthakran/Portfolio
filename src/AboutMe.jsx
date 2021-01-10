@@ -6,7 +6,7 @@ const AboutMe =() =>{
             <React.Fragment>
                 <section id="about">
                     
-                    <div className="d-flex flex-column align-items-center justify-content-center" style={{height: "630px"}}>
+                    <div className="d-flex flex-column align-items-center justify-content-center " style={{height: "630px", margin :"7.5rem"}}>
                     <div className="my-5">
                         <h1 className="text-center">About me</h1>
                     </div>

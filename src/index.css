@@ -78,6 +78,7 @@ code {
   }.card{
     background: white; 
     border: .0625rem solid #eee;
+    border-radius: .5rem;
    
     cursor: pointer;
  
@@ -85,7 +86,7 @@ code {
 .card:hover{
     background: white;
     box-shadow: 0 0.625rem 0.875rem -0.3125rem #e0e0e0;
-
+    
 }
 
 .rounded img{
@@ -99,6 +100,16 @@ code {
   display:flex;
   flex-direction:column;
 
+}
+#about img:hover {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+#about img {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }
 .colu{
   width:100px;
@@ -124,7 +135,24 @@ code {
 .home h1{
   color:  rgb(95, 99, 104);
 }
+.button1{
+  color: #1a73e8;
+  outline:none;
+  border: none;
+  background-color:white;
+  font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-decoration: none;
+  
+  
 
+}
+
+.mybuttons{
+  display:flex;
+  justify-content: space-between;
+}
 @-webkit-keyframes up-down{
 0% {
     transform: translateY(10px)
