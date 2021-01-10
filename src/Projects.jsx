@@ -8,9 +8,10 @@ const Projects = () =>{
            <div className ="my-5" id="project">
                 <h1 className="text-center">Projects</h1>
            </div>
+           
            <div className="container-fluid mb-5">
                 <div className="row">
-                    <div className="col-10 mx-auto">
+                    <div className="col-lg-10 col-md-10 col-sm-9 mx-auto">
                     <div className="row gy-5">
                            {Sdata.map((val,inde) =>{
                                return(

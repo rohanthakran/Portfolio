@@ -11,7 +11,7 @@ const Toolsuse = () =>{
           
            <div className="container-fluid mb-5">
                 <div className="row">
-                    <div className="col-lg-8 col-sm-10 col-xs-4 col-md-8 mx-auto text-center">
+                    <div className="col-lg-7 col-sm-10 col-xs-4 col-md-8 mx-auto text-center">
                     <div className="row gy-4">
                            {Tools.map((val,inde) =>{
                                return(
