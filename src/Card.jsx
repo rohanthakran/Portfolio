@@ -4,7 +4,7 @@ const Card =(props) =>{
     return (
         <React.Fragment>
   
-                    <div className="col-md-3 col-10 m-5">
+                    <div className="col-sm-9 col-xs-4 col-md-4 col-lg-3 col-10 m-5">
                     <div className="card" >
 
                      <img src={props.shot} className="img-fluid" alt="Responsive image"/>

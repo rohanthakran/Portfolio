@@ -75,13 +75,15 @@ code {
 
   }.card{
     background: white; 
-    box-shadow: var(--shadow);
+    border: .0625rem solid #eee;
+   
     cursor: pointer;
-    transition: 0.3s;
+ 
 }
 .card:hover{
     background: white;
-    box-shadow: 8px 8px 16px 8px rgba(0.2,0.2,0.2,0.2);
+    box-shadow: 0 0.625rem 0.875rem -0.3125rem #e0e0e0;
+
 }
 
 .myimg img{
