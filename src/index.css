@@ -197,6 +197,14 @@ footer{
   background-color:white;
   
 }
+.space{
+  margin:3rem;
+
+}
+.space1{
+  margin:3rem;
+
+}
 
 @keyframes fadeIn {
   0% {
@@ -232,5 +240,16 @@ footer{
   }
   .scrollTop {
     right: 20px;
+  }
+  .col-8{
+    width:73%;
+  }
+}
+@media (max-width:468px){
+  .space{
+  margin:1.5rem;
+  }
+  .space1{
+    margin:1.5rem;
   }
 }

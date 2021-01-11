@@ -9,7 +9,7 @@ const CardToll =(porps) =>{
       
  
   
- <div className="col-sm-2 col-10 m-5" style={{width:"auto"}}>
+ <div className="col-sm-2 col-10 space " style={{width:"auto"}}>
  
  <div className="colu">
         <div className="myimg">
