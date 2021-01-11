@@ -184,7 +184,7 @@ font-weight:100px
   padding: 50px;
 }
 footer{
-  background-color: rgb(95, 99, 104);
+  background-color: rgb(220,220,220)
 }
 
 .scrollTop:hover{
@@ -197,10 +197,7 @@ footer{
   background-color:white;
   
 }
-.icon2 :hover{
-  color: white;
-  background-color:rgb(95, 99, 104);
-}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
