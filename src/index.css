@@ -250,6 +250,15 @@ footer{
   margin:1.5rem;
   }
   .space1{
-    margin:1.5rem;
+    padding: 0 !important;
+    margin:0;
+    width:99% !important;
+  }
+  .myimg img{
+    height:66px;
+    width:66px;
+  }
+  .colu h1 {
+    font-size:18px;
   }
 }
