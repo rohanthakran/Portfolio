@@ -4,6 +4,7 @@ import React from 'react';
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Footer  from './Footer.jsx'
+import Scroll from './Scroll.jsx'
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -18,6 +19,7 @@ import Toolsuse from './Toolsuse';
 const App = () =>{
     return (
         <React.Fragment>
+        <Scroll/>
        <NavBar/> 
        <Home />
        <AboutMe/>

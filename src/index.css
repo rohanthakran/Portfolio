@@ -9,6 +9,9 @@
   font-family: 'Mulish', sans-serif;
   
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   display:flex;
   flex-direction:column;
@@ -163,6 +166,32 @@ font-weight:100px
 .list1 li{
   padding: 12px 0px;
 }
+
+.scrollTop {
+  position: fixed; 
+  bottom: 20px;
+  right: 100px;
+  height: 40px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
 @media (max-width:768px){
   #header {
     margin-top:20px
@@ -186,5 +215,8 @@ font-weight:100px
   }
   form{
     margin-bottom: 50px;
+  }
+  .scrollTop {
+    right: 20px;
   }
 }
