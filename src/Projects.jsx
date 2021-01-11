@@ -12,7 +12,7 @@ const Projects = () =>{
            <div className="container-fluid mb-5">
                 <div className="row">
                 
-                    <div className="col-lg-10 col-md-10 col-sm-9 col-10 mx-auto">
+                    <div className="col-lg-7 col-md-10 col-sm-9 col-10 mx-auto">
                     <div className="row gy-5">
                    
                            {Sdata.map((val,inde) =>{
