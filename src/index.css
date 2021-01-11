@@ -179,11 +179,28 @@ font-weight:100px
   transition: opacity 0.4s;
   opacity: 0.5;
 }
+.foot{
+  height: 200px;
+  padding: 50px;
+}
+footer{
+  background-color: rgb(95, 99, 104);
+}
 
 .scrollTop:hover{
   opacity: 1;
 }
-
+#contact {
+  margin-bottom:50px;
+}
+.icon1 :hover{
+  background-color:white;
+  
+}
+.icon2 :hover{
+  color: white;
+  background-color:rgb(95, 99, 104);
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
