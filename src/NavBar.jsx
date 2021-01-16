@@ -6,7 +6,7 @@ const Navbar =() =>{
 
       <div className="container-fluid nv_bg">
           <div className="row">
-            <div className=" col-lg-10  col-sm-3 mx-auto ">
+            <div className=" col-lg-10  col-m-3 mx-auto ">
          
       <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">

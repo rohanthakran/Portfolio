@@ -13,7 +13,7 @@ const Projects = () =>{
                 <div className="row">
                 
                     <div className="col-lg-9 col-md-10 col-sm-9 col-10 mx-auto">
-                    <div className="row gy-5">
+                    <div className="row gy-5 align-items-center justify-content-center">
                    
                            {Sdata.map((val,inde) =>{
                                return(
